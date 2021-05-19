@@ -11,7 +11,7 @@ namespace _7LabProgram
             int n = 4;
             var Equation = new List<Equation>(n) 
             {
-                new Equation(0.5, b, 6, 1),
+                new Equation(0.5, 6, 6, 1),
                 new Equation(0, -4, 9, 3),
                 new Equation(-8, 0, 5, 2),
                 new Equation(-1, 2, 3, 4)
