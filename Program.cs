@@ -9,7 +9,7 @@ namespace _7LabProgram
         static void Main(string[] args)
         {
             int n = 4;
-            var Equation = new List<Equation>(n) //масив об'єктів
+            var Equation = new List<Equation>(n) 
             {
                 new Equation(0.5, b, 6, 1),
                 new Equation(0, -4, 9, 3),
