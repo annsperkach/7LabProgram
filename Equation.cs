@@ -13,69 +13,7 @@ namespace Library
             this.c = c;
             this.d = d;
         }
-
-        public void SetValue(char input, double value)
-        {
-            try
-            {
-                if (input == 'a')
-                {
-                    a = value;
-                }
-                else if (input == 'b')
-                {
-                    b = value;
-                }
-                else if (input == 'c')
-                {
-                    c = value;
-                }
-                else if (input == 'd')
-                {
-                    d = value;
-                }
-                else
-                {
-                    throw new Exception("Invalid argument");
-                }
-            }
-            catch (Exception error)
-            {
-                Console.WriteLine(error.Message);
-            }
-        }
-        public double GetValue(char input)
-        {
-            try
-            {
-                if (input == 'a')
-                {
-                    return a;
-                }
-                else if (input == 'b')
-                {
-                    return b;
-                }
-                else if (input == 'c')
-                {
-                    return c;
-                }
-                else if (input == 'd')
-                {
-                    return d;
-                }
-                else
-                {
-                    throw new Exception("Invalid argument");
-                }
-            }
-            catch (Exception error)
-            {
-                Console.WriteLine(error.Message);
-                return 0;
-            }
-        }
-
+        
         public double Calculation()
         {
             try
